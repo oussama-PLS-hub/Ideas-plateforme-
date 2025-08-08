@@ -129,7 +129,7 @@ with st.sidebar:
     st.markdown('---')
     # Auth widget
     if 'user_id' not in st.session_state or st.session_state.get('user_id') is None:
-        with st.expander('Se connecter / S'inscrire'):
+        with st.expander("Se connecter / S'inscrire"):
             mode = st.selectbox('Mode', ['Login', 'Register'])
             if mode == 'Register':
                 name = st.text_input('Nom complet')
