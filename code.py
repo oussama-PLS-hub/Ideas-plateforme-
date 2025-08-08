@@ -100,7 +100,7 @@ elif choice == "View Ideas":
             st.write(row["description"])
             if st.button(f"Vote for {row['id']}", key=row['id']):
                 vote_idea(row['id'])
-                st.experimental_rerun()
+                st.rerun()
             st.markdown("---")
     else:
         st.info("No ideas yet.")
