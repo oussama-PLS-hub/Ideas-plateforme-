@@ -1,2 +1,7 @@
 streamlit
 sqlalchemy
+pandas
+sqlite3-binary
+markdown
+bcrypt
+passlib
