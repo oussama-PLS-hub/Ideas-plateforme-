@@ -136,7 +136,7 @@ with st.sidebar:
                 email = st.text_input('Adresse email')
                 password = st.text_input('Mot de passe', type='password')
                 bio = st.text_area('Bio courte (optionnel)')
-                if st.button('S'inscrire'):
+                if st.button("S'inscrire"):
                     if not name or not email or not password:
                         st.error('Veuillez remplir nom, email et mot de passe')
                     else:
